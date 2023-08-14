@@ -12,19 +12,19 @@
 }
 
 body{
-    background-color: #F5F7FA;
+    background-color: #F5F7FA!important;
     font-family: 'gotham_roundedmedium';
 }
-p{
+/* p{
     color: #474545;
-}
+} */
 nav{
     background-color: white;
     border: 1px solid #707070;
 }
 h1,h2,h3,h4,h6{
-    color: #002171;
-    font-weight: 700;
+    color: #002171!important;
+    font-weight: 700!important;
     font-family: 'gotham_roundedmedium';
 }
 button,.try-your-luck{
@@ -33,23 +33,23 @@ button,.try-your-luck{
     color: white;
     font-family: 'gotham_roundedmedium';
 }
-.try-your-luck{
+/* .try-your-luck{
     display: block;
     text-decoration: none;
-}
-.form-select{
+} */
+/* .form-select{
     background-color: #ffffff00;
     border: 0px;
     color: white;
 }
 .form-select option{
     color: black;
-}
-
-/* .banner-home{
-    background-image: url(images/signal/78068288-shutterstock-1943780704-2880x900.jpg.rendition.1440.600.avif);
-    background-size: cover;
 } */
+
+.congrats-banner{
+    /* background-image: url(images/signal/congrats-banner.PNG); */
+    background-size: cover;
+}
 .congrats-banner h1{
     color: #ED193F;
 }
@@ -71,13 +71,13 @@ button,.try-your-luck{
     padding-top: 3%;
     padding-bottom: 3%;
 }
-form span, form a,.astrik-sign{
+/* form span, form a,.astrik-sign{
     color: #ED193F!important;
 }
 form .form-group label{
     color: #2A316B;
     font-weight: 700;
-}
+} */
 .main-content2-img{
     background-color: #fff;
 }
@@ -113,18 +113,18 @@ h2 {
 input[type=checkbox] {
     margin-right: 8px;
 } */
-form .form-control{
+/* form .form-control{
     border: 1px solid #DAD8D8!important;
     border-radius: none!important;
-}
-.custom-control-label, .privacy-cookies{
+} */
+/* .custom-control-label, .privacy-cookies{
     color: #949494;
-}
-.privacy-cookies-b{
+} */
+/* .privacy-cookies-b{
     font-weight: bold;
     color: #636060;
 
-}
+} */
 
 @media only screen and (max-width:768px){
     .main-content1 button{
