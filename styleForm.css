@@ -57,7 +57,9 @@ body,html{
     width: 85%!important;
 }
 /* wheel */
-
+.wheel-container::before{
+    content: '<h1>hello</h1>';
+}
 .wheel-container .wheel-item{
     color: black!important;
     background-color: #fff!important;
