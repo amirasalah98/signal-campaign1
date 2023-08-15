@@ -107,7 +107,7 @@ body,html{
     left: 0;
 }
 .signup-text h2{
-    width: 45%;
+    width: 35%;
 }
 @media only screen and (max-width:768px){
 
@@ -121,7 +121,9 @@ body,html{
     }
     .wheel-container{
         width: max-content;
-        scale: .3;
+        scale: .5;
     }
-   
+    .signup-text h2{
+        width: 60%;
+    }
 }

@@ -126,7 +126,12 @@ input[type=checkbox] {
     color: #636060;
 
 } */
-
+.form-success{
+    display: none;
+}
+.wheelColor{
+    background-color: #575757;
+}
 @media only screen and (max-width:768px){
     .main-content1 button{
         width: 90%!important;
