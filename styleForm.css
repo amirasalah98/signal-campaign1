@@ -94,7 +94,7 @@ body,html{
     background-color: #fff!important;
 }
 .wheel{
-    background-color: #ED193F!important;
+    background-color: #ED193F;
     opacity: 1!important;
 }
 .wheel:after{

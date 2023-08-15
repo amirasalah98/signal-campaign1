@@ -5,14 +5,16 @@ signupText.style.display='block'
 wheelContainer.appendChild(signupText);
 
 // wheel color after submit
-var wheelItem= document.getElementsByClassName('wheel-item::before')
-var wheel=document.getElementsByClassName('wheel')
+var wheel=document.querySelector('.wheel')
+var wheelItem= document.querySelector('.wheel-item::before')
 var form=document.getElementsByTagName('form')
 console.log(wheel);
 console.log(wheelItem);
 
-form.addEventListener("submit", () => {
+form.addEventListener("submit", (e) => {
+    e.preventDefault()
     wheel.classList.add("wheelColor");
+    wheel.classList.remove("wheel");
     wheelItem.classList.add("wheelColor");
     console.log(wheel);
     console.log(wheelItem);
