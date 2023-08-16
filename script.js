@@ -4,23 +4,25 @@ const wheelContainer=document.querySelector("#form-widget")
 signupText.style.display='block'
 wheelContainer.appendChild(signupText);
 
-// wheel color after submit
-var wheel=document.getElementsByClassName('wheel')
-var wheelItem= document.getElementsByClassName('wheel-item::before')
-var form=document.getElementsByTagName('form')
-console.log(wheel);
-console.log(wheelItem);
+//congrats 
+document.body.onload = addElement;
 
-// form.addEventListener("submit", () => {
-    // wheelItem.setAttribute('style', 'color:black !important');
+function addElement() {
+  const newDiv = document.createElement("div");
+  const congrats=document.querySelector(".congrats-banner")
 
-//     e.preventDefault()
-//     wheel.classList.add("wheelColor");
-//     wheelItem.classList.add("wheelColor");
-    console.log(wheel);
-    console.log(wheelItem);
+  document.body.appendChild(newDiv);
+  newDiv.innerHTML=congrats
+
+
+}
+
+// const congrats=document.querySelector(".congrats-banner")
+// document.body.appendChild(congrats)
+// const form= document.querySelector('.Form');
+// const mainContent= document.getElementsByClassName('main-content1')
+// console.log(mainContent);
+// form.addEventListener('submit', function (event) {
+//     event.preventDefault();
+//     mainContent.style.display='none'
 // })
-// wheel.style.color="#000";
-    // wheelItem[0].style.backgroundColor="#000";
-    // wheelItem.setAttribute('style', 'color:black !important');
-    // document.head.innerHTML += '<style> .wheel { color: #fff `!important` } </style>';
